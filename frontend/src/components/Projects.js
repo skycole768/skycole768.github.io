@@ -12,7 +12,7 @@ const Projects = React.forwardRef((props, ref) => {
       {
         title: 'Lot Track Lite',
         description:
-          "LotTrack Lite is a Flutter-based web application designed to track the real-time status and location of vehicles in auction lots. Developed in a limited amount of time as a showcase project, it demonstrates clean UI design, responsive layout, and stateful interactivity using Dart and Flutter Web.<br><br>" +
+          "Lot Track Lite is a Flutter-based web application designed to track the real-time status and location of vehicles in auction lots. Developed in a limited amount of time as a showcase project, it demonstrates clean UI design, responsive layout, and stateful interactivity using Dart and Flutter Web.<br><br>" +
           "Check it out at <a href='https://lot-track-lite.vercel.app' target='_blank' style='color:rgb(38, 101, 169);'>lot-track-lite.vercel.app</a> !<br><br>" +
           "• Flutter & Dart: Used to develop a cross-platform frontend with reactive UI components and seamless routing.<br>" +
           "• Flutter Web: Deployed via Vercel using the static web build from Flutter’s `build/web` output.<br>" +
