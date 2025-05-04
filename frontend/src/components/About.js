@@ -42,7 +42,7 @@ const About = React.forwardRef((props, ref) => {
           <div className='aboutWrapper'>
         <h1 className = 'aboutHeader'>All about me</h1>
         <img src = {ME} alt = "me" className="me"/>
-        <h5 className = "moreAbout">Hello! I'm Skyler(Sky for short), a passionate up and coming software engineer with a deep interest in leveraging technology to solve complex problems. I am currently pursuing a Bachelor's degree in Computer Science at the University Of Georgia, with a minor in korean language and literature, set to graduate in December 2024.  
+        <h5 className = "moreAbout">Hello! I'm Skyler(Sky for short), a passionate up and coming software engineer with a deep interest in leveraging technology to solve complex problems. I recented graduated with Bachelor Of Science in Computer Science at the University Of Georgia, with a minor in korean language and literature.  
           <hr className="aboutHr"/>
           My academic journey has equipped me with a solid foundation in software development, and I have had the opportunity to dive deep into various programming languages and technologies, including Java, C++, Python, and JavaScript. My coursework has included advanced studies in algorithms, data structures, and software engineering principles, preparing me for complex problem-solving and innovative solutions.
           <hr className="aboutHr"/>
@@ -50,7 +50,7 @@ const About = React.forwardRef((props, ref) => {
           <hr className="aboutHr"/>
           Outside of my academic and professional life, I have a range of hobbies that keep me engaged and inspired. I love reading, watching foreign films, and learning new languages, which broadens my perspectives and keeps my creativity flowing. Hiking and spending time in nature allow me to recharge and find balance, while swimming and drawing in charcoal are my favorite ways to unwind and express myself artistically.
           <hr className="aboutHr"/>
-          I am passionate about combining technology with creativity and am excited to continue exploring how innovative solutions can address real-world challenges.
+          I am passionate about combining technology with creativity and am excited to continue exploring how innovative solutions can address real-world challenges!
         </h5>
         </div>
         </div>

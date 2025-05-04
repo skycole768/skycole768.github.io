@@ -9,6 +9,23 @@ const Projects = React.forwardRef((props, ref) => {
   const {contactRef} = props
 
   const projects = [
+      {
+        title: 'Lot Track Lite',
+        description:
+          "LotTrack Lite is a Flutter-based web application designed to track the real-time status and location of vehicles in auction lots. Developed in a limited amount of time as a showcase project, it demonstrates clean UI design, responsive layout, and stateful interactivity using Dart and Flutter Web.<br><br>" +
+          "Check it out at <a href='https://lot-track-lite.vercel.app' target='_blank' style='color:rgb(38, 101, 169);'>lot-track-lite.vercel.app</a> !<br><br>" +
+          "• Flutter & Dart: Used to develop a cross-platform frontend with reactive UI components and seamless routing.<br>" +
+          "• Flutter Web: Deployed via Vercel using the static web build from Flutter’s `build/web` output.<br>" +
+          "• State Management: Built with `StatefulWidget` classes to manage dynamic updates, such as changing vehicle statuses.<br><br>" +
+          "Key Features:<br>" +
+          "• Vehicle List UI: Scrollable list of vehicle cards, each displaying an image, model, status, and other metadata.<br>" +
+          "• Status Update: Users can select a new vehicle status from a dropdown, and the card updates instantly.<br>" +
+          "• Responsive Design: Layout adapts to various flexible constraints.<br><br>" +
+          "LotTrack Lite demonstrates strong design thinking, full-stack deployment experience with Flutter Web, and an understanding of stateful widget-driven architectures. It is intended to mirror real-world vehicle tracking applications like those used in logistics or auction operations.",
+        imageUrl: 'YOUR_IMAGE_URL_HERE',  // Replace with a screenshot or hosted image
+        owner: 'skycole768',              // Your GitHub username
+        repo: 'lot-track-lite'            // Repo name
+      },
     { 
       title: 'Olea Mpox Health Platform',
       description:
