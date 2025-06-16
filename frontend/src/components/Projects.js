@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import '../styles/projects.css';
 import DAWGIT from '../images/DAWGIT.png'
 import DAWGEAT from '../images/DAWGEAT.png'
+import Lango from '../images/Lango.png'
 import React from "react";
 
 const Projects = React.forwardRef((props, ref) => {
@@ -9,6 +10,23 @@ const Projects = React.forwardRef((props, ref) => {
   const {contactRef} = props
 
   const projects = [
+      {
+        title: 'Lango App',
+        description:
+          "Lango is a serverless, cloud-native vocabulary tracking app designed to help language learners build and review personalized flashcard sets. Built using AWS Lambda, DynamoDB, Terraform, and React, it showcases scalable backend architecture and a dynamic, user-friendly frontend.<br><br>" +
+          "Check it out at <a href='https://lango-app.vercel.app' target='_blank' style='color:rgb(38, 101, 169);'>lango-app.vercel.app</a>!<br><br>" +
+          "• React + Vite: Built with a fast, modern React stack using Vite for rapid development and performance.<br>" +
+          "• AWS Serverless: Backend powered by Lambda functions, API Gateway, and DynamoDB — all provisioned with Terraform.<br>" +
+          "• Authentication: JWT-based login/signup with password hashing and secure token storage in localStorage.<br><br>" +
+          "Key Features:<br>" +
+          "• Flashcard System: Users can create languages, sets, and flashcards with word/usage pairs, then edit or delete as needed.<br>" +
+          "• RESTful API: Backend endpoints handle all CRUD operations securely and efficiently.<br>" +
+          "• Fully Serverless: No traditional servers — the app runs entirely on-demand with near-zero maintenance overhead.<br><br>" +
+          "Lango demonstrates real-world cloud engineering skills, secure API development, frontend-backend integration, and infrastructure-as-code with Terraform — all packaged in an elegant learning tool.",
+        imageUrl: Lango,  // Add a live screenshot or hosted image
+        owner: 'skycole768',              // Your GitHub username
+        repo: 'lango-app'                 // GitHub repo name (adjust if different)
+      },
       {
         title: 'Lot Track Lite',
         description:
